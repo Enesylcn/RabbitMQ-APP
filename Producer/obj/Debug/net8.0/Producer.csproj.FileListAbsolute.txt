@@ -1,0 +1,17 @@
+C:\Users\enes\Desktop\project\RabbitMQ-APP\Producer\bin\Debug\net8.0\Producer.exe
+C:\Users\enes\Desktop\project\RabbitMQ-APP\Producer\bin\Debug\net8.0\Producer.deps.json
+C:\Users\enes\Desktop\project\RabbitMQ-APP\Producer\bin\Debug\net8.0\Producer.runtimeconfig.json
+C:\Users\enes\Desktop\project\RabbitMQ-APP\Producer\bin\Debug\net8.0\Producer.dll
+C:\Users\enes\Desktop\project\RabbitMQ-APP\Producer\bin\Debug\net8.0\Producer.pdb
+C:\Users\enes\Desktop\project\RabbitMQ-APP\Producer\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Users\enes\Desktop\project\RabbitMQ-APP\Producer\obj\Debug\net8.0\Producer.csproj.AssemblyReference.cache
+C:\Users\enes\Desktop\project\RabbitMQ-APP\Producer\obj\Debug\net8.0\Producer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\enes\Desktop\project\RabbitMQ-APP\Producer\obj\Debug\net8.0\Producer.AssemblyInfoInputs.cache
+C:\Users\enes\Desktop\project\RabbitMQ-APP\Producer\obj\Debug\net8.0\Producer.AssemblyInfo.cs
+C:\Users\enes\Desktop\project\RabbitMQ-APP\Producer\obj\Debug\net8.0\Producer.csproj.CoreCompileInputs.cache
+C:\Users\enes\Desktop\project\RabbitMQ-APP\Producer\obj\Debug\net8.0\Producer.csproj.CopyComplete
+C:\Users\enes\Desktop\project\RabbitMQ-APP\Producer\obj\Debug\net8.0\Producer.dll
+C:\Users\enes\Desktop\project\RabbitMQ-APP\Producer\obj\Debug\net8.0\refint\Producer.dll
+C:\Users\enes\Desktop\project\RabbitMQ-APP\Producer\obj\Debug\net8.0\Producer.pdb
+C:\Users\enes\Desktop\project\RabbitMQ-APP\Producer\obj\Debug\net8.0\Producer.genruntimeconfig.cache
+C:\Users\enes\Desktop\project\RabbitMQ-APP\Producer\obj\Debug\net8.0\ref\Producer.dll
