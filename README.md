@@ -1,90 +1,61 @@
-# Equine Tracker
+# Introduction
+This project is an example of developing an application using RabbitMQ message queue. The application includes a simple structure for sending and receiving messages.
+## :beginner: About
 
-![Equine Tracker Logo](images/horse-logo.png)
+RabbitMQ is an open-source message broker software that facilitates communication between distributed systems. It is based on the Advanced Message Queuing Protocol (AMQP) and provides a robust and scalable messaging solution.
+![image](https://github.com/Enesylcn/RabbitMQ-APP/assets/86023573/42966938-6b08-44e7-a5ba-33776e546767)
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/equine-tracker)](https://github.com/yourusername/equine-tracker/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/yourusername/equine-tracker)](https://github.com/yourusername/equine-tracker/network/members)
-[![GitHub Issues](https://img.shields.io/github/issues/yourusername/equine-tracker)](https://github.com/yourusername/equine-tracker/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/yourusername/equine-tracker)](https://github.com/yourusername/equine-tracker/pulls)
+### Key Features of RabbitMQ:
 
-## Table of Contents
+- **Messaging Patterns:** RabbitMQ supports various messaging patterns, including point-to-point, publish/subscribe, and request/reply.
 
-1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Contributing](#contributing)
-6. [License](#license)
-7. [Acknowledgments](#acknowledgments)
+- **Reliability:** It ensures reliable message delivery through features like message acknowledgment and durable queues.
 
-## Introduction
+- **Flexibility:** RabbitMQ allows for easy integration with various programming languages and platforms.
 
-Welcome to Equine Tracker, the ultimate tool for horse enthusiasts. Equine Tracker is designed to help you manage and monitor the health and well-being of your beloved horses. Whether you're a seasoned equestrian or a new horse owner, Equine Tracker has you covered.
+- **Scalability:** It can handle a large number of concurrent connections and scale horizontally to meet growing demands.
 
-![Horse Image 1](images/horse1.jpg)
-![Horse Image 2](images/horse2.jpg)
+- **Management and Monitoring:** RabbitMQ provides a web-based management interface and supports monitoring tools to track message queues and system health.
 
-## Features
+### :notebook: Pre-Requisites
+Before running the application, make sure you have the following software installed on your machine:
 
-Equine Tracker comes with a wide range of features tailored for horse care:
+- [Node.js and npm](https://nodejs.org/): JavaScript runtime and package manager for building the frontend.
 
-- **Horse Profiles**: Create profiles for each of your horses with essential information.
-- **Health Records**: Maintain health records, including vaccinations, medications, and vet appointments.
-- **Feeding Schedule**: Set up feeding schedules and receive reminders.
-- **Exercise Logs**: Track the exercise routines and activities of your horses.
-- **Horse Events**: Plan and manage events like competitions, shows, and rides.
-- **Community**: Connect with fellow horse enthusiasts and share your horse stories.
+- [.NET Core SDK](https://dotnet.microsoft.com/download): Software development kit for building the backend.
 
-For a detailed guide on using these features, refer to our [User Manual](docs/user-manual.md).
+- [RabbitMQ Server](https://www.rabbitmq.com/download.html): A message broker software for handling message queues.
 
-## Installation
+Ensure that you have these dependencies installed, as they are necessary for the proper functioning of the RabbitMQ-APP.
 
-To start using Equine Tracker, follow these installation steps:
+## :zap: How To Use
 
-1. Clone the repository:
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
-   ```bash
-   git clone https://github.com/yourusername/equine-tracker.git
-   ```
+```bash
+# Clone this repository
+$ git clone https://github.com/Enesylcn/RabbitMQ-APP
 
-2. Navigate to the project directory:
+# Go into the repository
+$ cd RabbitMQ-APP
 
-   ```bash
-   cd equine-tracker
-   ```
+# Install dependencies
+$ npm install
 
-3. Install the required dependencies:
+# Run the app
+$ npm start
+```
+##  :page_facing_up: Resources
+- https://www.youtube.com/watch?v=wZbX_Qh8zbI&t=3444s
+- https://www.amqp.org/
+- https://chat.openai.com/
+- https://medium.com/devopsturkiye/rabbitmq-genel-bakis-76824f890fd0
 
-   ```bash
-   npm install
-   ```
 
-4. Start the application:
+##  :camera: Gallery
+- The publisher named "queue1", which produces a message every half a second, is run on RabbitMQ, and the consumer with the same name pulls these messages from the queue.
+  ![Consumer_Queue2](https://github.com/Enesylcn/RabbitMQ-APP/assets/86023573/fe9c6ecb-1eba-4bab-bc1c-711ff10a051a)
+- The moment when two publishers and four consumers connected to the same router are working with these two different publishers.
+  ![allConusmer](https://github.com/Enesylcn/RabbitMQ-APP/assets/86023573/9da7f503-d3d3-4b8a-abd0-c68cf4fd7535)
 
-   ```bash
-   npm start
-   ```
 
-For additional setup instructions and troubleshooting, consult the [Installation Guide](docs/installation-guide.md).
-
-## Usage
-
-Equine Tracker is user-friendly and intuitive. To get started quickly, please refer to our [User Manual](docs/user-manual.md). It covers everything from setting up your horse profiles to recording health data and scheduling events.
-
-## Contributing
-
-We welcome contributions from the horse-loving community! If you have ideas for improvements, bug reports, or want to contribute code, please check our [Contribution Guidelines](CONTRIBUTING.md) for details on how to get involved.
-
-## License
-
-Equine Tracker is open-source software licensed under the Apache License 2.0. For full details, refer to the [LICENSE](LICENSE) file.
-
-## Acknowledgments
-
-We'd like to extend our gratitude to the equestrian community for their support and inspiration. Equine Tracker wouldn't be possible without you.
-
-![Horse Image 3](images/horse3.jpg)
-![Horse Image 4](images/horse4.jpg)
-
-Thank you for choosing Equine Tracker, and may your horses thrive and gallop with joy!
